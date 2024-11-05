@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Delight</title>
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            color: #333;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('cafe.jpg') center/cover no-repeat;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        .overlay {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background: #ff9800;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* Menu Section */
+        .menu {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .menu h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .menu-items {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .item {
+            background: #f8d9c4; /* Light warm beige for a cozy feel */
+            padding: 15px;
+            border-radius: 8px;
+            width: 200px;
+            text-align: center;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 20px;
+            text-align: center;
+            background: #a64e2d; /* Warm reddish-brown for a classic look */
+            color: #fff; /* White text for readability */
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="hero">
+        <div class="overlay">
+            <h1>Café Delight</h1>
+            <p>Experience the best coffee and pastries in town</p>
+            <a href="#menu" class="btn">Explore Menu</a>
+        </div>
+    </header>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <h2>Our Specialties</h2>
+        <div class="menu-items">
+            <div class="item">
+                <h3>Espresso</h3>
+                <p>Rich and creamy espresso made fresh.</p>
+            </div>
+            <div class="item">
+                <h3>Sandwiches</h3>
+                <p>Delicious, handcrafted sandwiches.</p>
+            </div>
+            <div class="item">
+                <h3>Pastries</h3>
+                <p>Freshly baked pastries, perfect with coffee.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Visit Us</h2>
+        <p>123 Coffee Lane, Brewtown</p>
+        <p>Email: contact@cafedelight.com</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Café Delight</p>
+    </footer>
+</body>
+</html>
